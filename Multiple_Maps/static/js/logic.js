@@ -31,6 +31,14 @@ let map = L.map('mapid', {
 // Pass our map layers into our layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
 
+
+
+
+
+
+
+
+
 // Accessing the airport GeoJSON URL
 let airportData = "https://raw.githubusercontent.com/onsotiL/Mapping_Earthquakes/main/majorAirports.json";
 // Grabbing our GeoJSON data.
